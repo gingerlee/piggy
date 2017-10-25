@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src ="js/scripts.js"></script>
     <script src="js/jquery-3.2.1.js"</script>
+      <script src ="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" text="text/css">
     <meta charset="utf-8">
     <title>Love pig Latin!</title>
   </head>
   <body>
-    <form id="pig-form">
-      <div class="form-group">
-        <label for="piggies">Please eneter a word to be translated:</label>
-        <input type="text" class="form-control" id="piggies" placeholder="hey there, neighbor - please enter a word now. thanks. ">
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-3">Gettin' Piggy With It</h1>
+        <p class="lead">#snort</p>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    <div class="result">
-      <p id="pigWord"></p>
+      <form id="pig-form">
+        <div class="form-group">
+          <label for="piggies">Please eneter a word to be translated:</label>
+          <input type="text" class="form-control" id="piggies" placeholder="hey there, neighbor - please enter a word now. thanks. ">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="result">
+        <p id="pigWord"></p>
+      </div>
     </div>
   </body>
 </html>
